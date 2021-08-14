@@ -1,2 +1,2 @@
 # i3
-i3 tiling window manager
+i3 tiling window manager installation guide and more...
