@@ -1,2 +1,3 @@
 # i3
-i3 tiling window manager installation guide and more...
+This repo contains my i3 tiling window manager installation guide and more.
+
