@@ -11,15 +11,17 @@ The applications I use were chosen primarily from the Gnome and KDE desktop envi
 <br />
 <br />
 ## About
-This repo was created primarily as a backup of my installation guide and configuration files. Also by sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
+This repo was created primarily as a backup for my installation guide and configuration files.
+
+Also by sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
 <br />
 <br />
 ## Screenshots
-A couple of sample screenshots...
-<br />
+A blank workspace
 ![primary monitor](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor.png)
 <br />
 <br />
+Rofi in action
 ![primary monitor with rofi](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-rofi.png)
 <br />
 <br />
