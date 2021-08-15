@@ -31,6 +31,7 @@ To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main
 <br />
 <br />
 ## Components
+The main i3 components I use. More components are listed in the intallation guide.
 
 | Program | Name |
 | ------- | ---- |
@@ -43,6 +44,7 @@ To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main
 <br />
 
 ## Applications
+The main applications I use. More applications are listed in the intallation guide.
 
 | Program | Name |
 | ------- | ---- |
