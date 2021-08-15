@@ -15,7 +15,7 @@ This repo was created primarily as a backup of my installation guide and configu
 <br />
 <br />
 ## Screenshots
-Here are a few sample screenshots... Go the screenshots folder to see more.
+I use 3 monitors, here are a few sample screenshots...
 <br />
 Put screenshot here...
 <br />
