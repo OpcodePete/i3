@@ -25,8 +25,6 @@ Place the generated configuration in the i3 config
 <br />
 <br />
 <br />
-
-  
   
 ## Notes
 
@@ -54,7 +52,7 @@ Directory structure of configuration files
 #picom
 ~/.config/picom/picom.conf
 ```
-<br />
+
 <br />
 <br />
 
@@ -62,48 +60,25 @@ Directory structure of configuration files
 
 **i3**
 
-Note, monitor names will be used in the i3 configurations.
-
-i3  and related apps
-
 ```bash
 sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
+# Note: i3-gaps will be installed by default
 ```
 
-
-
 **Themes**
-
-Themes and appearance related apps
 
 ```bash
 sudo pacman -S arc-gtk-theme arc-icon-theme lxappearance qt5ct oxygen oxygen-icons gtk-chtheme
 ```
-
-Fonts
+  
+**Fonts**
 
 ```bash
 sudo pacman -S ttf-roboto ttf-roboto-mono ttf-nerd-fonts-symbols
 ```
-
-Set theme
-
-```bash
-# Set theme to 'Breeze'
-lxappearance
-
-# Set theme to 'Breeze'
-qt5ct --platformtheme qt5ct
-
-# Set theme to 'Breeze'
-gtk-chtheme
-```
-
-
+<br />
 
 **Applications**
-
-Install applications
 
 Terminal
 
@@ -195,13 +170,26 @@ AUR Helper
 cd AURgit clone https://aur.archlinux.org/paru.gitcd parumakepkg -si
 ```
 
-Review apps: https://discover.manjaro.org/
-
-
-
-
+<br />
+<br />
+<br />
 
 ## Configuration
+
+**i3 theme**
+
+```bash
+# Set theme to 'Breeze'
+lxappearance
+
+# Set theme to 'Breeze'
+qt5ct --platformtheme qt5ct
+
+# Set theme to 'Breeze'
+gtk-chtheme
+```
+
+<br />
 
 **System**
 
