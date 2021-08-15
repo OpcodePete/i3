@@ -31,7 +31,7 @@ To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main
 <br />
 <br />
 ## Components
-The main i3 components I use. More components are listed in the intallation guide.
+The main i3 components used.
 
 | Program | Name |
 | ------- | ---- |
@@ -45,7 +45,7 @@ The main i3 components I use. More components are listed in the intallation guid
 <br />
 
 ## Applications
-The main applications I use. More applications are listed in the intallation guide.
+The main applications I regularly use.
 
 | Program | Name |
 | ------- | ---- |
@@ -60,10 +60,8 @@ The main applications I use. More applications are listed in the intallation gui
 <br />
 <br />
 
-## At start up
-I use three monitors and have specific workspaces assigned to each of the monitors. Also I use _i3 Layouts_ to set placeholder windows for specific applications to reside in.
-
-When i3 starts, workspaces appear at their set monitors, and (my most used) applications auto-launch into their set workspaces. I'm now ready to work!
+## Automation @ start up
+I use three monitors and have specific i3 workspaces assigned to each of the monitors. Also, I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. When i3 starts, workspaces appear at their set monitors, and my applications auto-launch into their set workspaces!
 
 
 **Primary monitor (2560x1440)**
