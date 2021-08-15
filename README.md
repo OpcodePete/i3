@@ -37,6 +37,7 @@ The main i3 components I use. More components are listed in the intallation guid
 | ------- | ---- |
 | WM | i3-gaps |
 | Launcher | rofi |
+| Bar | i3status |
 | Background | feh |
 | Notification | dunst |
 | Compositor | picom |
