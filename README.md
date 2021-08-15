@@ -7,11 +7,11 @@ i3 is the only desktop (wm) that does not get in the way. Using other tiling win
 
 My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
-The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC - 16GB RAM, laptop - 32GB RAM) therefore I do not need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done.
+The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC:16GB RAM, laptop:32GB RAM) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
 <br />
 <br />
 ## About
-This repo was created primarily as a backup of my installation notes and configuration files. Also by sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
+This repo was created primarily as a backup of my installation guide and configuration files. Also by sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
 <br />
 <br />
 ## Screenshots
