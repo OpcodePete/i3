@@ -23,7 +23,7 @@ A couple of sample screenshots...
 ![primary monitor with rofi](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-rofi.png)
 <br />
 <br />
-To view more go to the /[screenshot](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
+To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
 <br />
 <br />
 ## Components
