@@ -25,6 +25,10 @@ Rofi in action
 ![primary monitor with rofi](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-rofi.png)
 <br />
 <br />
+htop in action
+![primary monitor with htop](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-terminal-htop.png)
+<br />
+<br />
 To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
 <br />
 <br />
