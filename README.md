@@ -23,6 +23,9 @@ A couple of sample screenshots...
 ![screenshot](primary-monitor-rofi.png )
 <br />
 <br />
+To view more go to the /[screenshot](screenshot) folder.
+<br />
+<br />
 ## Components
 
 | Program | Name |
