@@ -315,7 +315,7 @@ sudo vim /etc/pam.d/login# At the end of the auth section add:auth optional pam_
 vim ~/.xinitrceval $(gnome-keyring-daemon --start)export SSH_AUTH_SOCK
 ```
 
-When adding opcodestudios account, select **Server Type** as **Exchange Web Services**
+When adding my office365 account, select **Server Type** as **Exchange Web Services**
 
 
 
