@@ -2,43 +2,35 @@
 
 ## Pre-requisites
 
-**Monitor(s) configuration**
+**Configure monitors**
 
-<u>Nvidia graphics card</u>
-
+For <u>Nvidia graphics card</u> owners, use the Nvidia tool to configure for multi-monitor
 ```bash
 sudo pacman -S nvidia-settings
 ```
-
-Then configure monitors appropriately
-
-​			OR
-
-<u>Other graphics card</u>
+<br />
+For <u>other graphics card</> types
 
 ```bash
-sudo pacman -S xorg-xrandr
-```
+# install
+sudo pacman -S xorg-xrandr arandr
 
-Generate configuration
-
-```bash
-# List monitors
-xrandr --listmonitors
-# or
+# Get the monitor details
 xrandr
+
+# Generate multi-monitor configuration
+arandr
 ```
+Place the generated configuration in the i3 config
+<br />
+<br />
+<br />
 
+  
+  
+## Notes
 
-
-
-
-## Installation
-
-Notes:
-
-1. Configuration files reside in the below directories
-2. My 'live' config files are in: `OneDrive/Computing/Linux/Notes/Windows Managers/i3wm/Live/Desktop/`
+Directory structure of configuration files
 
 ```bash
 #~/
@@ -62,8 +54,11 @@ Notes:
 #picom
 ~/.config/picom/picom.conf
 ```
+<br />
+<br />
+<br />
 
-
+## Installation
 
 **i3**
 
