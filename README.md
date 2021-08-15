@@ -60,30 +60,42 @@ The main applications I regularly use.
 <br />
 <br />
 
-## Automation @ start up
-I use three monitors and have specific i3 workspaces assigned to each of the monitors. Also, I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. When i3 starts, workspaces appear at their set monitors, and my applications auto-launch into their set workspaces!
+## Usage
+
+**My typical workflow**
+I have three monitors and have set specific i3 workspaces assigned to each of the monitors.
+
+My primary monitor (which has the highest resolution) is used for mostly for browsing and emails, i.e. mostly reading. Three i3 workspaces (1-3) are assigned to this monitor.
+
+The monitor in the middle (the secondary monitor) is used for the builk of my work, terminal, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
+
+The right most monitor is the (oldest and) smallest monitor. I only glance at this monitor. I find ad-hoc tasks are well suited here, such as chatting with friends via messaging apps, a GUI based editor to paste temporary text (although I could use the i3 scratchpad for this).  Three i3 workspaces (8-10) are assigned to this monitor.
+
+**Automation @ start up**
+
+I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. When i3 starts, workspaces appear at their set monitors, and my applications auto-launch into their set workspaces!
 
 
 **Primary monitor (2560x1440)**
-| Workspace | Application |
-| ------- | ---- |
-| 1 | Firefox |
-| 2 | Chrome |
-| 3 | Evolution |
+| Workspace | Application | Notes |
+| ------- | ---- | ---- |
+| 1 | Firefox | |
+| 2 | Chrome | |
+| 3 | Evolution | |
 <br />
 
 **Secondary monitor (1920x1080)**
-| Workspace | Application |
-| ------- | ---- |
-| 4 | Konsole + tmux |
-| 5 | Ranger |
-| 6 |  |
-| 7 |  |
+| Workspace | Application | Notes |
+| ------- | ---- | ---- |
+| 4 | Konsole + tmux | |
+| 5 | Ranger | |
+| 6 |  | |
+| 7 |  | |
 <br />
 
 **Tertiary monitor (1920x1080)**
-| Workspace | Application |
-| ------- | ---- |
-| 8 |  |
-| 9 |  |
-| 10 |  |
+| Workspace | Application | Notes |
+| ------- | ---- | ---- |
+| 8 |  | |
+| 9 |  | |
+| 10 |  | |
