@@ -63,7 +63,7 @@ The main applications I use. More applications are listed in the intallation gui
 ## Setup
 I use three monitors and have specific workspaces assigned to each of the monitors. Also I use _i3 Layouts_ to set placeholder windows for specific applications to reside in.
 
-When i3 starts, workspaces appear at their set monitors, and (my most used) applications auto-launch into their set workspaces. I'm ready to work!
+When i3 starts, workspaces appear at their set monitors, and (my most used) applications auto-launch into their set workspaces. I'm now ready to work!
 
 
 **Primary monitor (2560x1440)**
