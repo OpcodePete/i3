@@ -1,4 +1,4 @@
-# i3
+# i3 tiling window manager
 I use **Arch Linux** and the **i3 tiling window manager** as my primary driver. i3 is the only desktop (wm) that doesn't get in the way - we just click!.
 My desktop (wm) has a Nordic, clean, and somewhat minimalistic look and feel. The applications I use have been chosen mostly from Gnome and KDE.
 I don't need a minimalistic 'light' setup as my machines have more than enough RAM (PC - 16GB RAM, laptop - 32GB RAM).
