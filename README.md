@@ -57,3 +57,35 @@ The main applications I use. More applications are listed in the intallation gui
 | Office | Libre Office |
 | Media | eog, vlc, deadbeed, digikam |
 | AUR Helper | paru |
+<br />
+<br />
+
+## Setup
+I use three monitors and have specific workspaces assigned to each of the monitors. Also I use _i3 Layouts_ to set placeholder windows for specific applications to reside in.
+
+When i3 starts, workspaces appear at their set monitors, and (my most used) applications auto-launch into their set workspaces. I'm ready to work!
+
+
+**Primary monitor (2560x1440)**
+| Workspace | Application |
+| ------- | ---- |
+| 1 | Firefox |
+| 2 | Chrome |
+| 3 | Evolution |
+<br />
+
+**Secondary monitor (1920x1080)**
+| Workspace | Application |
+| ------- | ---- |
+| 4 | Konsole + tmux |
+| 5 | Ranger |
+| 6 |  |
+| 7 |  |
+<br />
+
+**Tertiary monitor (1920x1080)**
+| Workspace | Application |
+| ------- | ---- |
+| 8 |  |
+| 9 |  |
+| 10 |  |
