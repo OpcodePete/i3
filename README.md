@@ -1,13 +1,17 @@
 # i3 tiling window manager
-I use **Arch Linux** and the **i3 tiling window manager** as my primary driver. i3 is the only desktop (wm) that doesn't get in the way - we just click!.
-My desktop (wm) has a Nordic, clean, and somewhat minimalistic look and feel. The applications I use have been chosen mostly from Gnome and KDE.
-I don't need a minimalistic 'light' setup as my machines have more than enough RAM (PC - 16GB RAM, laptop - 32GB RAM).
 
-I prefer a clean and somewhat minimalist desktop
+## My i3
+My primary driver is **Arch Linux** with **i3** on my desktop.
+
+i3 is the only desktop (wm) that does not get in the way. Using other tiling window mangers was not intuitive for me, but using i3, well... it just clicked!
+
+My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel.
+
+The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC - 16GB RAM, laptop - 32GB RAM) therefore I do not need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done.
 <br />
 <br />
 ## About
-I've created this repo primarily as a backup of my installation instructions and configuration files, and also to give back to the i3 community to help others setup their systems.
+This repo was created primarily as a backup of my installation instructions and my configuration files. Also by sharing my inforation I hope to give back to the i3 community, helping others with their setups and configurations.
 <br />
 <br />
 ## Screenshots
