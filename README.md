@@ -11,7 +11,7 @@ The applications I use were chosen primarily from the Gnome and KDE desktop envi
 <br />
 <br />
 ## About
-This repo was created primarily as a backup of my installation instructions and my configuration files. Also by sharing my inforation I hope to give back to the i3 community, helping others with their setups and configurations.
+This repo was created primarily as a backup of my installation notes and configuration files. Also by sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
 <br />
 <br />
 ## Screenshots
