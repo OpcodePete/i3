@@ -15,9 +15,12 @@ This repo was created primarily as a backup of my installation guide and configu
 <br />
 <br />
 ## Screenshots
-I use 3 monitors, here are a few sample screenshots...
+A couple of sample screenshots...
 <br />
-Put screenshot here...
+![screenshot](primary-monitor.png )
+<br />
+<br />
+![screenshot](primary-monitor-rofi.png )
 <br />
 <br />
 ## Components
