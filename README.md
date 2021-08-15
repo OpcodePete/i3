@@ -17,10 +17,10 @@ This repo was created primarily as a backup of my installation guide and configu
 ## Screenshots
 A couple of sample screenshots...
 <br />
-![screenshot](primary-monitor.png )
+![primary monitor](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor.png)
 <br />
 <br />
-![screenshot](primary-monitor-rofi.png )
+![primary monitor with rofi](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-rofi.png)
 <br />
 <br />
 To view more go to the /[screenshot](screenshot) folder.
