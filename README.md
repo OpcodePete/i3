@@ -40,4 +40,19 @@ To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main
 | Launcher | rofi |
 | Background | feh |
 | Notification | dunst |
+| Compositor | picom |
+<br />
+<br />
 
+## Applications
+
+| Program | Name |
+| ------- | ---- |
+| Terminal | konsole, tmux |
+| File manager | ranger, pcmanfm |
+| Editor | vim, leafpad |
+| Browser | firefox, chrome, edge |
+| Email | Evolution |
+| Office | Libre Office |
+| Media | eog, vlc, deadbeed, digikam |
+| AUR Helper | paru |
