@@ -34,8 +34,7 @@ To view more, please go to the /[screenshots](/screenshots) folder.
 <br />
 <br />
 
-## Components
-The main i3 components I have used:
+## i3 components
 
 - WM - i3-gaps
 - Launcher - rofi
@@ -47,7 +46,7 @@ The main i3 components I have used:
 <br />
 
 ## Applications
-The main applications I regularly use.
+Some of the applications I use:
 
 | Program | Name |
 | ------- | ---- |
