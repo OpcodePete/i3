@@ -56,7 +56,7 @@ Directory structure of configuration files
 <br />
 <br />
 
-## Installation
+## Install i3 and related applications
 
 **i3 windows manager**
 
@@ -69,113 +69,63 @@ sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-jso
 <br />
 <br />
 
-**Applications**
-
-AUR Helper
+## Install Applications
 
 ```bash
+# aur helper
 cd AUR
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
-```
 
-Terminal
-
-```bash
+# terminal and related utilities
 sudo pacman -S konsole bash-completion tmux
 paru tmuxline
-```
 
-File Manager
-
-```bash
+# file managers
 sudo pacman -S pcmanfm ranger
-```
 
-Editor
-
-```bash
+# editors
 sudo pacman -S vim leafpad
-```
 
-Browser
-
-```bash
+# browsers
 sudo pacman -S firefox chromium
-```
 
-Email
-
-```bash
+# email client
 sudo pacman -S evolution evolution-ews evolution-on evolution-rss
-```
 
-Office
-
-```bash
+# office suite and related applications
 sudo pacman -S libreoffice-still freerdp foliate evince kcalc flameshot akregator hunspell-en_AU hyphen-en libmythes mythes-en aspell-en
 paru typora
 paru cawbird
 paru zoom
 paru teams
-```
 
-Media
-
-```bash
+# media applications
 sudo pacman -S eog vlc deadbeef digikam
-```
 
-Archive Tools
-
-```bash
+# archive tools
 sudo pacman -S p7zip unrar tar ark
-```
 
-Security
-
-```bash
+# Security tools
 sudo pacman -S gnome-keyring veracrypt
 paru cryptomator
-```
 
-Utilities
-
-```bash
+# system utilities
 sudo pacman -S man-db man-pages arch-audit rsync redshift
-```
 
-Diagnostics
-
-```bash
-sudo pacman -S htop ncdu filelight gnome-disk-utility neofetch
+# diagnostics tools
+sudo pacman -S htop ncdu filelight gnome-disk-utility gparted neofetch
 paru pkgbrowser
-```
 
-System
-
-```bash
-sudo pacman -S gparted
-```
-
-Development
-
-```bash
+# development tools
 sudo pacman -S nasm kdbg bless code
 ```
 
-Games
-
-```bash
-sudo pacman -S gnuchess knights
-```
 <br />
 <br />
 
-## Configuration
-
-**Theme**
+## Set the system theme
 
 ```bash
 # install theme utilities
@@ -196,7 +146,7 @@ gtk-chtheme
 
 <br />
 
-**System**
+## Configuration
 
 <u>bash</u>
 
