@@ -116,3 +116,11 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 
 ## Display Manager
 I don't use a display manager (aka login manager), rather I prefer to log into the default shell and manually start _X_ typically after _Arch Linux_ updates.
+
+<br />
+<br />
+
+## Keybindings
+I stick to all the default keybindings where possible and for mod$ I use the popular alternative Windows key (Mod4).
+
+I have enabled back and forth (workspace_auto_back_and_forth yes)
