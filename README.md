@@ -27,7 +27,7 @@ htop in action
 ![primary monitor with htop](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-terminal-htop.png)
 <br />
 <br />
-To view more go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
+Visit the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder to view more...
 <br />
 <br />
 ## Components
@@ -59,43 +59,48 @@ The main applications I regularly use.
 | AUR Helper | paru |
 <br />
 <br />
+<br />
 
 ## Usage
 
 **My typical workflow**
-I have three monitors and have set specific i3 workspaces assigned to each of the monitors.
 
-My primary monitor (which has the highest resolution) is used for mostly for browsing and emails, i.e. mostly reading. Three i3 workspaces (1-3) are assigned to this monitor.
+I have three monitors and have specific i3 workspaces assigned to each of the monitors.
 
-The monitor in the middle (the secondary monitor) is used for the builk of my work, terminal, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
+My primary monitor (which has the highest resolution) is used mostly for browsing and emails, i.e. reading. The first three i3 workspaces (1-3) are assigned to this monitor.
 
-The right most monitor is the (oldest and) smallest monitor. I only glance at this monitor. I find ad-hoc tasks are well suited here, such as chatting with friends via messaging apps, a GUI based editor to paste temporary text (although I could use the i3 scratchpad for this).  Three i3 workspaces (8-10) are assigned to this monitor.
+My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
+
+My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the i3 scratchpad for this purpose), and so on.  The last three i3 workspaces (8-10) are assigned to this monitor.
+<br />
 
 **Automation @ start up**
 
-I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. When i3 starts, workspaces appear at their set monitors, and my applications auto-launch into their set workspaces!
+Previously I had been frequently launching my most used applications (via rofi) in their designated workspaces once i3 had started. After a while I then grew tired of doing this monotonous task each time. So I looked into how this could be <u>automated<u/>. This is where _i3 Layouts_ came in!
+  
+I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. Now when i3 starts, my applications auto-launch into their designated workspaces, and since workspaces appear at their specified monitors, everything is where is should be without any manual intervention!
 
 
 **Primary monitor (2560x1440)**
 | Workspace | Application | Notes |
 | ------- | ---- | ---- |
-| 1 | Firefox | |
-| 2 | Chrome | |
-| 3 | Evolution | |
+| 1 | Firefox | auto-launch at startup |
+| 2 | Chrome | auto-launch at startup |
+| 3 | Evolution | auto-launch at startup |
 <br />
 
 **Secondary monitor (1920x1080)**
 | Workspace | Application | Notes |
 | ------- | ---- | ---- |
-| 4 | Konsole + tmux | |
-| 5 | Ranger | |
-| 6 |  | |
-| 7 |  | |
+| 4 | Konsole + tmux | auto-launch at startup |
+| 5 | Ranger | auto-launch at startup |
+| 6 | PCManFM | |
+| 7 | Typora | |
 <br />
 
 **Tertiary monitor (1920x1080)**
 | Workspace | Application | Notes |
 | ------- | ---- | ---- |
-| 8 |  | |
-| 9 |  | |
-| 10 |  | |
+| 8 | Signal, Telegram | |
+| 9 | | |
+| 10 | | |
