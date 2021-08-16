@@ -186,34 +186,60 @@ sudo vim /etc/paru.conf
 # configure columns
 vim ~/.config/ranger/rc.conf#set column_ratios 1,3,4set column_ratios 2,4
 ```
+<br />
 
-<u>Firefox</u>
+## Firefox
 
-1. Install Firefox Addon *Arc Darker Theme*
+Install the Firefox Addon _Arc Darker Theme_
+<br />
 
-<u>Gnome Keyring</u>
-
-```bash
-sudo vim /etc/pam.d/login# At the end of the auth section add:auth optional pam_gnome_keyring.so  # At the end of the session section add:session optional pam_gnome_keyring.so auto_start
-```
-
-<u>Redshift</u>
+## Gnome Keyring
 
 ```bash
-# Verify geoclue is working/usr/lib/geoclue-2.0/demos/where-am-i# Edit geoclue configsudo vim /etc/geoclue/geoclue.conf# Edit the following line:url=https://location.services.mozilla.com/v1/geolocate?key=geoclue# Add the following lines:[redshift]allowed=truesystem=falseusers=
-```
+sudo vim /etc/pam.d/login
 
-<u>Evolution</u>
+# At the end of the 'auth' section add the following:
+auth     optional    pam_gnome_keyring.so
+
+# At the end of the 'session' section add the following:
+session     optional    pam_gnome_keyring.so auto_start
+```
+<br />
+
+## Redshift
 
 ```bash
-vim ~/.xinitrceval $(gnome-keyring-daemon --start)export SSH_AUTH_SOCK
+# Verify geoclue is working
+/usr/lib/geoclue-2.0/demos/where-am-i
+
+# Edit the geoclue config
+sudo vim /etc/geoclue/geoclue.conf
+
+# Uncomment the following line to:
+url=https://location.services.mozilla.com/v1/geolocate?key=geoclue
+
+# Add the following lines to the end of the file:
+[redshift]
+allowed=true
+system=false
+users=
 ```
+<br />
 
-When adding my office365 account, select **Server Type** as **Exchange Web Services**
+## Evolution
+```bash
+vim ~/.xinitrc
+
+eval $(gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
+```
+Note when adding an Office365 mail account, select the _Server Type_ as _Exchange Web Services_
+
+<br />
+<br />
 
 
-
-**Layouts**
+## Layouts
 
 Launch applications
 
