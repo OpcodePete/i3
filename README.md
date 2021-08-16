@@ -71,7 +71,7 @@ My primary monitor (which has the highest resolution) is used mostly for browsin
 
 My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four _i3 workspaces_ (4-7) are assigned to this monitor.
 
-My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the _i3 scratchpad_ for this purpose), and so on.  The last three _i3 workspaces_ (8-10) are assigned to this monitor.
+My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps. The last three _i3 workspaces_ (8-10) are assigned to this monitor.
 <br />
 <br />
 
@@ -122,3 +122,8 @@ I don't use a display manager (aka login manager), rather I prefer to log into t
 Default keybindings are used wherever possible, and for mod$ I use the popular alternative Windows key (Mod4).
 
 And I have enabled the workspace back and forth feature (workspace_auto_back_and_forth yes)
+
+<br />
+
+## Scratchpad
+I find the i3 scratchpad very useful as I almost always have leafpad embedded in here, using it solely for pasting and re-copying text.
