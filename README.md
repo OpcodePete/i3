@@ -7,19 +7,7 @@ Having used Microsoft Windows, Gnome, and KDE Plasma for years, i3 is the only d
 
 My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
-The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC-16GB RAM, laptop-egal because this is a group therapy session,' he jokes, standing next to his bride-to-be as the packed room erupts in laughter.
-
-'That's why my father's here!'
-
-One of the revellers shouts that 'he's a mental health clinician'. egal because this is a group therapy session,' he jokes, standing next to his bride-to-be as the packed room erupts in laughter.
-
-'That's why my father's here!'
-
-One of the revellers shouts that 'he's a mental health clinician'. egal because this is a group therapy session,' he jokes, standing next to his bride-to-be as the packed room erupts in laughter.
-
-'That's why my father's here!'
-
-One of the revellers shouts that 'he's a mental health clinician'. 32GB RAM) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
+The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC-16GB RAM, laptop-32GB RAM) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
 <br />
 <br />
 
