@@ -1,8 +1,6 @@
 # i3 Installation guide
 
-## Pre-requisites
-
-**Configure monitors**
+## Configure multiple monitors
 
 For _Nvidia graphics card_ owners, use the Nvidia tool to configure for multi-monitor
 ```bash
@@ -20,56 +18,20 @@ xrandr
 
 # generate multi-monitor configuration
 arandr
-```
-Place the generated configuration in the i3 config file
-<br />
-<br />
-<br />
-  
-## Notes
 
-Directory structure of configuration files
+# place the generated configuration in the i3 config file appropriately
+```
+<br />
+
+## Install i3
 
 ```bash
-#~/
-~/.Xresources
-
-#i3
-~/.config/i3/config
-~/.config/i3/nord-wallpaper.png
-
-#i3status
-~/.config/i3status/config
-
-#rofi
-~/.config/rofi/config
-~/.config/rofi/nord.rasi
-~/.config/rofi/rofi-power-menu
-
-#dunst
-~/.config/dunst/dunstrc
-
-#picom
-~/.config/picom/picom.conf
-```
-
-<br />
-<br />
-
-## Install i3 and related applications
-
-**i3 windows manager**
-
-```bash
-# note the i3 package group contains both i3 and i3-gaps, choose one of them
-
 sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
+# note the i3 package group contains both i3 and i3-gaps, choose one of them
 ```
-
-<br />
 <br />
 
-## Install Applications
+## Install applications
 
 ```bash
 # aur helper
@@ -121,11 +83,9 @@ paru pkgbrowser
 # development tools
 sudo pacman -S nasm kdbg bless code
 ```
-
-<br />
 <br />
 
-## Set the system theme
+## Set system theme
 
 ```bash
 # install theme utilities
@@ -143,46 +103,54 @@ qt5ct --platformtheme qt5ct
 # Set theme to 'Breeze'
 gtk-chtheme
 ```
-
 <br />
 
-## Configuration
-
-<u>bash</u>
-
-Include the following in ~/.bashrc
+## Configure bash
 
 ```bash
-# Set default editorexport VISUAL=vimexport EDITOR="$VISUAL"
+# in ~/.bashrc set the default editor
+
+export VISUAL=vim
+export EDITOR="$VISUAL"
+```
+<br />
+
+## Configure tmux
+
+```bash
+# in ~/.tmux.conf configure tmux to support 256 colours
+
+set -g default-terminal "xterm-256color"
+set -ag terminal-overrides ',xterm-256color:Tc'
+```
+<br />
+
+## Configure vim under tmux
+
+```bash
+# in ~/.vimrc
+
+"Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
+if (has("termguicolors"))
+   set termguicolors
+endif
+
+if &term =~ '256color'
+    " disable Background Color Erase (BCE) so that color schemes
+    " render properly when inside 256-color tmux and GNU screen.
+    " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+    set t_ut=
+endif
+set term=xterm-256color
 ```
 
-
-
-<u>tmux</u>
-
-Configure tmux to support 256 colours
-
-In ~/.tmux.conf
+If tmux does not render the **vim-airline** powerline fonts correctly, e.g. sharp arrow corners are not displayed then:
 
 ```bash
-set -g default-terminal "xterm-256color"set -ag terminal-overrides ',xterm-256color:Tc'
-```
+# check system locales
+locale
 
-vim (in tmux)
-
-```bash
-"Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.if (has("termguicolors"))  set termguicolorsendifif &term =~ '256color'    " disable Background Color Erase (BCE) so that color schemes    " render properly when inside 256-color tmux and GNU screen.    " see also http://snk.tuxfamily.org/log/vim-256color-bce.html    set t_ut=endifset term=xterm-256color                                                                                                             "If the above does not work, use the below snippet instead"if exists('+termguicolors')                                                                                              "  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"                                                                                 "  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"                                                                                 "  set termguicolors                                                                                                      "endif                  
-```
-
-
-
-Notes:
-If tmux does not render the **vim-airline** powerline fonts correctly, e.g. sharp arrow corners are not displayed, then:
-
-1. Check system locales
-
-```bash
-locale# Locales should display: en_AU.UTF-8
+# expect to see locale values, e.g. en_AU.UTF-8
 ```
 
 If locales are not set, then check the Arch installation to set locales in `/etc/locale.conf`
