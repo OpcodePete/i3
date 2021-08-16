@@ -8,7 +8,7 @@ Having used Microsoft Windows, Gnome, and KDE Plasma for years, and even macOS f
 
 My _i3_ setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
-The applications I use were chosen primarily from the _Gnome_ and _KDE_ desktop environments. My development machines have sufficent RAM (PC-16GB|laptop-32GB) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
+The applications I use were chosen primarily from the _Gnome_ and _KDE_ desktop environments. My development machines have sufficent RAM (PC-16GB | laptop-32GB) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
 <br />
 <br />
 
