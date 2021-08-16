@@ -1,15 +1,15 @@
-# i3 tiling window manager
-
-![i3 logo](https://i3wm.org/img/logo.svg)
+![i3wm logo](/images/i3wm-logo.png)
+<br />
+<br />
 
 ## My i3
-My primary driver is **Arch Linux** with **i3** on my desktop.
+My primary driver is a desktop with _i3_ and _Arch Linux_.
 
-Having used Microsoft Windows, Gnome, and KDE Plasma for years, i3 is the only desktop that does not get in the way. Moreover using i3, well... it just clicked!
+Having used Microsoft Windows, Gnome, and KDE Plasma for years, and even macOS for a short time (a year or two), i3 has been the only desktop that does not get in the way. And when I learn't i3, well... it just clicked!
 
-My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel.
+My _i3_ setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
-The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC-16GB RAM, laptop-32GB RAM) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
+The applications I use were chosen primarily from the _Gnome_ and _KDE_ desktop environments. My development machines have sufficent RAM (PC-16GB|laptop-32GB) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
 <br />
 <br />
 
@@ -20,18 +20,18 @@ This repo was created as a backup for my installation guide and configuration fi
 
 ## Screenshots
 A blank workspace
-![primary monitor](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor.png)
+![primary monitor](/screenshots/primary-monitor.png)
 <br />
 <br />
 Rofi in action
-![primary monitor with rofi](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-rofi.png)
+![primary monitor with rofi](/screenshots/primary-monitor-rofi.png)
 <br />
 <br />
 htop in action
-![primary monitor with htop](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-terminal-htop.png)
+![primary monitor with htop](/screenshots/primary-monitor-terminal-htop.png)
 <br />
 <br />
-To view more, go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
+To view more, please go to the /[screenshots](/screenshots) folder.
 <br />
 <br />
 
