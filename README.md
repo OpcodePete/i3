@@ -3,7 +3,7 @@
 ## My i3
 My primary driver is **Arch Linux** with **i3** on my desktop.
 
-i3 is the only desktop (wm) that does not get in the way. Using other tiling window mangers was not intuitive for me, but using i3, well... it just clicked!
+Having used Microsoft Windows, Gnome, and KDE Plasma for years, i3 is the only desktop that does not get in the way. Moreover using i3, well... it just clicked!
 
 My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
