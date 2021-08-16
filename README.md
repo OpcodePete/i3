@@ -1,4 +1,6 @@
-# i3 tiling window manager
+![i3-wm logo](https://github.com/OpcodePete/i3/blob/main/images/i3wm-logo.png)
+<br />
+<br />
 
 ## My i3
 My primary driver is **Arch Linux** with **i3** on my desktop.
