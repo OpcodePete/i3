@@ -188,12 +188,13 @@ vim ~/.config/ranger/rc.conf#set column_ratios 1,3,4set column_ratios 2,4
 ```
 <br />
 
-## Firefox
+## Configure Firefox
 
 Install the Firefox Addon _Arc Darker Theme_
+
 <br />
 
-## Gnome Keyring
+## Configure Gnome Keyring
 
 ```bash
 sudo vim /etc/pam.d/login
@@ -206,7 +207,7 @@ session     optional    pam_gnome_keyring.so auto_start
 ```
 <br />
 
-## Redshift
+## Configure Redshift
 
 ```bash
 # Verify geoclue is working
@@ -226,7 +227,7 @@ users=
 ```
 <br />
 
-## Evolution
+## Configure Evolution
 
 ```bash
 vim ~/.xinitrc
@@ -238,7 +239,7 @@ Note when adding an Office365 mail account, select the _Server Type_ as _Exchang
 
 <br />
 <br />
-
+<br />
 
 ## i3 Layout saving and restoring
 
@@ -297,6 +298,7 @@ i3-save-tree --workspace 5 > build_workspace.json
 tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_5_startup.json
 rm build_workspace.json
 ```
+<br />
 
 Restoring the layouts
 
@@ -327,8 +329,9 @@ i3-msg "workspace 3; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_3_sta
 (evolution &)
 ```
 
+<br />
 
-How to configure swallows in window layouts
+To manually configure swallows in window layouts use `xprop`
 
 ```bash
 # Get the properties of the application
@@ -351,7 +354,9 @@ _NET_WM_NAME(UTF8_STRING) = "Change Foreground Color"
 xprop | grep -i 'class'
 ```
 
-
+<br />
+<br />
+<br />
 
 ## How To
 
