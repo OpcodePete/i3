@@ -4,21 +4,21 @@
 
 **Configure monitors**
 
-For <u>Nvidia graphics card</u> owners, use the Nvidia tool to configure for multi-monitor
+For _Nvidia graphics card_ owners, use the Nvidia tool to configure for multi-monitor
 ```bash
 sudo pacman -S nvidia-settings
 ```
 <br />
-For <u>other graphics card</> types
 
+For other graphics card types
 ```bash
 # install
 sudo pacman -S xorg-xrandr arandr
 
-# Get the monitor details
+# get monitors details
 xrandr
 
-# Generate multi-monitor configuration
+# generate multi-monitor configuration
 arandr
 ```
 Place the generated configuration in the i3 config file
@@ -61,36 +61,36 @@ Directory structure of configuration files
 **i3**
 
 ```bash
+# note the i3 package group contains both i3 and i3-gaps, choose one of them
+
 sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
-
-# Note: The i3 package group contains both i3 and i3-gaps, and i3-gaps will be installed by default unless you specify otherwise.
 ```
 
-**Themes**
-
-```bash
-sudo pacman -S arc-gtk-theme arc-icon-theme lxappearance qt5ct oxygen oxygen-icons gtk-chtheme
-```
-  
-**Fonts**
-
-```bash
-sudo pacman -S ttf-roboto ttf-roboto-mono ttf-nerd-fonts-symbols
-```
+<br />
 <br />
 
 **Applications**
 
+AUR Helper
+
+```bash
+cd AUR
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+
 Terminal
 
 ```bash
-sudo pacman -S konsole bash-completion tmuxparu tmuxline
+sudo pacman -S konsole bash-completion tmux
+paru tmuxline
 ```
 
 File Manager
 
 ```bash
-sudo pacman -S pcmanfm nnn
+sudo pacman -S pcmanfm ranger
 ```
 
 Editor
@@ -114,7 +114,11 @@ sudo pacman -S evolution evolution-ews evolution-on evolution-rss
 Office
 
 ```bash
-sudo pacman -S libreoffice-still freerdp foliate evince kcalc flameshot akregator hunspell-en_AU hyphen-en libmythes mythes-en aspell-enparu typoraparu cawbirdparu zoomparu teams
+sudo pacman -S libreoffice-still freerdp foliate evince kcalc flameshot akregator hunspell-en_AU hyphen-en libmythes mythes-en aspell-en
+paru typora
+paru cawbird
+paru zoom
+paru teams
 ```
 
 Media
@@ -132,7 +136,8 @@ sudo pacman -S p7zip unrar tar ark
 Security
 
 ```bash
-sudo pacman -S gnome-keyring veracryptparu cryptomator
+sudo pacman -S gnome-keyring veracrypt
+paru cryptomator
 ```
 
 Utilities
@@ -144,7 +149,8 @@ sudo pacman -S man-db man-pages arch-audit rsync redshift
 Diagnostics
 
 ```bash
-sudo pacman -S htop ncdu filelight gnome-disk-utility neofetchparu pkgbrowser
+sudo pacman -S htop ncdu filelight gnome-disk-utility neofetch
+paru pkgbrowser
 ```
 
 System
@@ -165,21 +171,25 @@ Games
 sudo pacman -S gnuchess knights
 ```
 
-AUR Helper
-
-```bash
-cd AUR
-git clone https://aur.archlinux.org/paru.git
-cd paru
-makepkg -si
-```
-
 <br />
 <br />
 
 ## Configuration
 
 **i3 theme**
+
+
+Themes
+
+```bash
+sudo pacman -S arc-gtk-theme arc-icon-theme lxappearance qt5ct oxygen oxygen-icons gtk-chtheme
+```
+  
+Fonts
+
+```bash
+sudo pacman -S ttf-roboto ttf-roboto-mono ttf-nerd-fonts-symbols
+```
 
 ```bash
 # Set theme to 'Breeze'
