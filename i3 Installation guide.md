@@ -242,25 +242,63 @@ Note when adding an Office365 mail account, select the _Server Type_ as _Exchang
 
 ## i3 Layout saving and restoring
 
-Saving the layout:
+Saving the layouts
 
 ```bash
-# launch the target applications in workspace 1
-
 # go to my layouts folder
 cd /home/peterg/.config/i3/layouts
+
+# workspace 1 launch Firefox
 
 # save the layout
 i3-save-tree --workspace 1 > build_workspace.json
 
-# format the layout
+# format the layout and clean up
 tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_1_startup.json
+rm build_workspace.json
 
-# clean up
+
+# workspace 2 launch Chrome
+
+# save the layout
+i3-save-tree --workspace 2 > build_workspace.json
+
+# format the layout and clean up
+tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_2_startup.json
+rm build_workspace.json
+
+
+# workspace 3 launch Evolution
+
+# save the layout
+i3-save-tree --workspace 3 > build_workspace.json
+
+# format the layout and clean up
+tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_3_startup.json
+rm build_workspace.json
+
+
+# workspace 4 launch Konsole + tmux
+
+# save the layout
+i3-save-tree --workspace 4 > build_workspace.json
+
+# format the layout and clean up
+tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_4_startup.json
+rm build_workspace.json
+
+
+# workspace 5 launch Konsole + ranger
+
+# save the layout
+i3-save-tree --workspace 5 > build_workspace.json
+
+# format the layout and clean up
+tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_5_startup.json
 rm build_workspace.json
 ```
 
-Restoring the layout:
+Restoring the layouts
 
 ```bash
 # create a script fo restore layout
@@ -289,23 +327,29 @@ i3-msg "workspace 3; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_3_sta
 (evolution &)
 ```
 
-Notes:
 
-1. How to get the class name of an application
-
-```bash
-# In a terminal, execute the followingxprop | grep -i 'class'# Then click on the target application
-```
-
-
-
-2. How to configure swallows in window layouts
+How to configure swallows in window layouts
 
 ```bash
-# Get the properties of the applicationxprop# The click in the app with the crosshairs (mouse cursor)# Layout swallow matching# Match on "class", "instance", "window_role" and/or "title" (all values are case-sensitive regular expressions):WM_WINDOW_ROLE(STRING) = "gimp-toolbox-color-dialog"# The first part of WM_CLASS is the "instance" (gimp-2.8 in this case), the second part is the "class" (Gimp-2.8 in this case)WM_CLASS(STRING) = "gimp-2.8", "Gimp-2.8"#  "title" matches against _NET_WM_NAME _NET_WM_NAME(UTF8_STRING) = "Change Foreground Color"# "window_role" matches against WM_WINDOW_ROLE
+# Get the properties of the application
+xprop
+# The click in the app with the crosshairs (mouse cursor)
+
+# Layout swallow matching
+# Match on "class", "instance", "window_role" and/or "title" (all values are case-sensitive regular expressions):
+WM_WINDOW_ROLE(STRING) = "gimp-toolbox-color-dialog"
+
+# The first part of WM_CLASS is the "instance" (gimp-2.8 in this case), the second part is the "class" (Gimp-2.8 in this case)
+WM_CLASS(STRING) = "gimp-2.8", "Gimp-2.8"
+
+#  "title" matches against _NET_WM_NAME 
+_NET_WM_NAME(UTF8_STRING) = "Change Foreground Color"
+
+# "window_role" matches against WM_WINDOW_ROLE
+
+# Or if you quickly just want the class name of an application
+xprop | grep -i 'class'
 ```
-
-
 
 
 
