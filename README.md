@@ -44,7 +44,6 @@ The main i3 components I have used:
 - Notification - dunst
 - Compositor - picom
 <br />
-<br />
 
 ## Applications
 The main applications I regularly use.
