@@ -80,6 +80,9 @@ Previously I had been frequently launching my most used applications (via rofi) 
   
 I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. Now when i3 starts, my applications auto-launch into their designated workspaces, and since workspaces appear at their specified monitors, everything is where is should be without any manual intervention!
 
+Here is a snapshot on where my _i3 workspaces_ and applications reside...
+
+<br />
 
 **Primary monitor (2560x1440)**
 | Workspace | Application | Notes |
