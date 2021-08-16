@@ -31,16 +31,15 @@ Visit the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots)
 <br />
 <br />
 ## Components
-The main i3 components used.
+The main i3 components I have used:
 
-| Program | Name |
-| ------- | ---- |
-| WM | i3-gaps |
-| Launcher | rofi |
-| Bar | i3status |
-| Background | feh |
-| Notification | dunst |
-| Compositor | picom |
+- WM - i3-gaps
+- Launcher - rofi
+- Bar - i3status
+- Background - feh
+- Screen lock - xss-lock
+- Notification - dunst
+- Compositor - picom
 <br />
 <br />
 
