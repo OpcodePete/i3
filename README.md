@@ -73,13 +73,16 @@ My secondary monitor which is located in the middle is used for the builk of my 
 
 My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the i3 scratchpad for this purpose), and so on.  The last three i3 workspaces (8-10) are assigned to this monitor.
 <br />
+<br />
 
 **Automation @ start up**
 
 Previously I had been frequently launching my most used applications (via rofi) in their designated workspaces once i3 had started. After a while I then grew tired of doing this monotonous task each time. So I looked into how this could be <u>automated<u/>. This is where _i3 Layouts_ came in!
   
 I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. Now when i3 starts, my applications auto-launch into their designated workspaces, and since workspaces appear at their specified monitors, everything is where is should be without any manual intervention!
-
+<br />
+<br />
+  
 Here is a snapshot on where my _i3 workspaces_ and applications reside...
 
 <br />
