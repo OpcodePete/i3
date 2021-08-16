@@ -1,5 +1,4 @@
-![i3wm logo](/images/i3wm-logo.png)
-<br />
+# i3 tiling wm
 <br />
 
 ## My i3
