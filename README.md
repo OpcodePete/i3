@@ -112,7 +112,6 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 | 10 | | |
 
 <br />
-<br />
 
 ## Display Manager
 I don't use a display manager (aka login manager), rather I prefer to log into the default shell and manually start X when I am ready, typically after _Arch Linux_ updates.
