@@ -227,6 +227,7 @@ users=
 <br />
 
 ## Evolution
+
 ```bash
 vim ~/.xinitrc
 
@@ -239,14 +240,53 @@ Note when adding an Office365 mail account, select the _Server Type_ as _Exchang
 <br />
 
 
-## Layouts
+## i3 Layout saving and restoring
 
-Launch applications
-
-Save layouts
+Saving the layout:
 
 ```bash
-# Workspace 1# Launch firefoxcd /home/peterg/.config/i3/layoutsi3-save-tree --workspace 1 > build_workspace.jsontail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_1_startup.jsonrm build_workspace.json# Workspace 2# Launch konsolei3-save-tree --workspace 1 > build_workspace.jsontail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_2_startup.jsonrm build_workspace.json# Workspace 4# Launch konsole, rangeri3-save-tree --workspace 1 > build_workspace.jsontail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_4_startup.jsonrm build_workspace.json# Workspace 10# Launch thunderbirdi3-save-tree --workspace 1 > build_workspace.jsontail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_10_startup.jsonrm build_workspace.json
+# launch the target applications in workspace 1
+
+# go to my layouts folder
+cd /home/peterg/.config/i3/layouts
+
+# save the layout
+i3-save-tree --workspace 1 > build_workspace.json
+
+# format the layout
+tail -n +2 build_workspace.json | fgrep -v '// split' | sed 's|//||g' > workspace_1_startup.json
+
+# clean up
+rm build_workspace.json
+```
+
+Restoring the layout:
+
+```bash
+# create a script fo restore layout
+vim load_startup_layouts.sh
+
+#!/bin/bash
+
+# For each workspace, append saved layouts then fill containers with specified programs
+# Note: call workspaces in ascending order of application load times
+i3-msg "workspace 4; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_4_startup.json"
+sleep 1
+(konsole -e tmux &)
+sleep 1
+
+i3-msg "workspace 5; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_5_startup.json"
+(konsole -e ranger &)
+sleep 1
+
+i3-msg "workspace 1; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_1_startup.json"
+(firefox &)
+
+i3-msg "workspace 2; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_2_startup.json"
+(google-chrome-stable &)
+
+i3-msg "workspace 3; append_layout ${XDG_CONFIG_HOME}/i3/layouts/workspace_3_startup.json"
+(evolution &)
 ```
 
 Notes:
