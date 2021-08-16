@@ -29,7 +29,7 @@ htop in action
 ![primary monitor with htop](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-terminal-htop.png)
 <br />
 <br />
-Visit the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder to view more...
+To view more, go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
 <br />
 <br />
 
@@ -60,7 +60,6 @@ The main applications I regularly use.
 | Media | eog, vlc, deadbeed, digikam |
 | AUR Helper | paru |
 <br />
-<br />
 
 ## Usage
 
@@ -73,7 +72,6 @@ My primary monitor (which has the highest resolution) is used mostly for browsin
 My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
 
 My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the i3 scratchpad for this purpose), and so on.  The last three i3 workspaces (8-10) are assigned to this monitor.
-<br />
 <br />
 
 **Automation @ start up**
