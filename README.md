@@ -121,4 +121,4 @@ I don't use a display manager (aka login manager), rather I prefer to log into t
 ## Keybindings
 Default keybindings are used wherever possible, and for mod$ I use the popular alternative Windows key (Mod4).
 
-And I have enabled back and forth (workspace_auto_back_and_forth yes)
+And I have enabled the workspace back and forth feature (workspace_auto_back_and_forth yes)
