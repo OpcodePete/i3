@@ -105,10 +105,25 @@ gtk-chtheme
 ```
 <br />
 
+## Set Konsole theme
+
+Under Menu/Settings/General
+
+1. Show menubar - Uncheck and restart Konsole
+
+Under Menu/Settings/Profiles/Profile 1/Edit
+
+1. Set Font to `Roboto Mono [GOOG] Light 8pt`
+
+2. Set Appearance to `Nordic konsole` (Download by clicking [Get New...] button)
+
+<br />
+
 ## Configure bash
 
 ```bash
-# in ~/.bashrc set the default editor
+# vim ~/.bashrc
+# set the default editor
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
@@ -118,7 +133,8 @@ export EDITOR="$VISUAL"
 ## Configure tmux
 
 ```bash
-# in ~/.tmux.conf configure tmux to support 256 colours
+# vim ~/.tmux.conf
+# configure tmux to support 256 colours
 
 set -g default-terminal "xterm-256color"
 set -ag terminal-overrides ',xterm-256color:Tc'
@@ -128,7 +144,7 @@ set -ag terminal-overrides ',xterm-256color:Tc'
 ## Configure vim under tmux
 
 ```bash
-# in ~/.vimrc
+# vim ~/.vimrc
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 if (has("termguicolors"))
@@ -143,59 +159,31 @@ if &term =~ '256color'
 endif
 set term=xterm-256color
 ```
+<br />
 
-If tmux does not render the **vim-airline** powerline fonts correctly, e.g. sharp arrow corners are not displayed then:
+## Configure pacman
 
 ```bash
-# check system locales
-locale
+# enable colour
+sudo vim /etc/pacman.conf
 
-# expect to see locale values, e.g. en_AU.UTF-8
+# in the 'Misc options' section, unremark option 'Color'
 ```
+<br />
 
-If locales are not set, then check the Arch installation to set locales in `/etc/locale.conf`
-
-If still not working, then force tmux to output UTF-8:
+## Configure paru
 
 ```bash
-# In ~/.bashrc, create an alias to a) force 256 colour support, and b) write UTF-8 outputalias tmux='tmux -2u'# Apply changes without rebootingsource ~/.bashrc
+sudo vim /etc/paru.conf
+
+# in the 'General option' section, unremark 'ColorBottomUp'
 ```
+<br />
 
-
-
-**Applications**
-
-<u>Pacman</u>
-
-Enable colour for pacman
+## Configure Ranger
 
 ```bash
-cd /etcsudo vim pacman.conf# Unremark the Misco option: ColorColor
-```
-
-<u>Paru</u>
-
-```bash
-cd /etcsudo vim paru.conf# Unremark the General option: ColorBottomUp
-```
-
-<u>Konsole</u>
-
-​	Menu/Settings/General
-
-1. Show menubar - Uncheck and restart Konsole
-
-​	Menu/Settings/Profiles/Profile 1/Edit
-
-1. Set Font to `Roboto Mono [GOOG] Light 8pt`
-
-2. Set Appearance to `Nordic konsole` (Download by clicking [Get New...] button)
-
-<u>Ranger</u>
-
-Configure columns
-
-```bash
+# configure columns
 vim ~/.config/ranger/rc.conf#set column_ratios 1,3,4set column_ratios 2,4
 ```
 
