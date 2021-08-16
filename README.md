@@ -115,7 +115,7 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 
 ## Display Manager
 I don't use a display manager (aka login manager), rather I prefer to log into the default shell and manually start X when I am ready, typically after _Arch Linux_ updates.
-<br />
+
 <br />
 
 ## Keybindings
@@ -126,4 +126,4 @@ And I have enabled the workspace back and forth feature (workspace_auto_back_and
 <br />
 
 ## Scratchpad
-I find the i3 scratchpad very useful as I almost always have leafpad embedded in here, using it solely for pasting and re-copying text.
+I find the _i3 scratchpad_ very useful as I almost always have leafpad embedded in here, using it solely for pasting and re-copying text.
