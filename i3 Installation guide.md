@@ -58,7 +58,7 @@ Directory structure of configuration files
 
 ## Installation
 
-**i3**
+**i3 windows manager**
 
 ```bash
 # note the i3 package group contains both i3 and i3-gaps, choose one of them
@@ -170,7 +170,6 @@ Games
 ```bash
 sudo pacman -S gnuchess knights
 ```
-
 <br />
 <br />
 
