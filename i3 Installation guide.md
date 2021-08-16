@@ -175,22 +175,15 @@ sudo pacman -S gnuchess knights
 
 ## Configuration
 
-**i3 theme**
-
-
-Themes
+**Theme**
 
 ```bash
+# install theme utilities
 sudo pacman -S arc-gtk-theme arc-icon-theme lxappearance qt5ct oxygen oxygen-icons gtk-chtheme
-```
-  
-Fonts
 
-```bash
+# install fonts
 sudo pacman -S ttf-roboto ttf-roboto-mono ttf-nerd-fonts-symbols
-```
 
-```bash
 # Set theme to 'Breeze'
 lxappearance
 
