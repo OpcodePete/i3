@@ -10,10 +10,12 @@ My **i3** setup uses a Nordic theme, with a clean and minimalistic look and feel
 The applications I use were chosen primarily from the Gnome and KDE desktop environments. My development machines have sufficent memory (PC:16GB RAM, laptop:32GB RAM) therefore I do not feel the need to go 'light'. I have chosen in my opinion the 'best' apps that can get the job done - don't judge bro ;)
 <br />
 <br />
+
 ## About
 This repo was created as a backup for my installation guide and configuration files. By sharing this I hope to give back to the i3 community - helping others with their setups and configurations.
 <br />
 <br />
+
 ## Screenshots
 A blank workspace
 ![primary monitor](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor.png)
@@ -27,9 +29,10 @@ htop in action
 ![primary monitor with htop](https://github.com/OpcodePete/i3/blob/main/screenshots/primary-monitor-terminal-htop.png)
 <br />
 <br />
-Visit the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder to view more...
+To view more, go to the /[screenshots](https://github.com/OpcodePete/i3/tree/main/screenshots) folder.
 <br />
 <br />
+
 ## Components
 The main i3 components I have used:
 
@@ -40,7 +43,6 @@ The main i3 components I have used:
 - Screen lock - xss-lock
 - Notification - dunst
 - Compositor - picom
-<br />
 <br />
 
 ## Applications
@@ -57,7 +59,6 @@ The main applications I regularly use.
 | Media | eog, vlc, deadbeed, digikam |
 | AUR Helper | paru |
 <br />
-<br />
 
 ## Usage
 
@@ -70,7 +71,6 @@ My primary monitor (which has the highest resolution) is used mostly for browsin
 My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
 
 My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the i3 scratchpad for this purpose), and so on.  The last three i3 workspaces (8-10) are assigned to this monitor.
-<br />
 <br />
 
 **Automation @ start up**
