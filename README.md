@@ -39,9 +39,9 @@ The main i3 components I have used:
 
 - WM - i3-gaps
 - Launcher - rofi
-- Bar - i3status
+- Bar - i3status, i3blocks
 - Background - feh
-- Screen lock - xss-lock
+- Screen lock - i3lock, xss-lock
 - Notification - dunst
 - Compositor - picom
 <br />
