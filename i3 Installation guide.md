@@ -21,7 +21,7 @@ xrandr
 # Generate multi-monitor configuration
 arandr
 ```
-Place the generated configuration in the i3 config
+Place the generated configuration in the i3 config file
 <br />
 <br />
 <br />
@@ -62,7 +62,8 @@ Directory structure of configuration files
 
 ```bash
 sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
-# Note: i3-gaps will be installed by default
+
+# Note: The i3 package group contains both i3 and i3-gaps, and i3-gaps will be installed by default unless you specify otherwise.
 ```
 
 **Themes**
@@ -167,10 +168,12 @@ sudo pacman -S gnuchess knights
 AUR Helper
 
 ```bash
-cd AURgit clone https://aur.archlinux.org/paru.gitcd parumakepkg -si
+cd AUR
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
 ```
 
-<br />
 <br />
 <br />
 
