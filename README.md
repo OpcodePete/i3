@@ -59,7 +59,6 @@ The main applications I regularly use.
 | AUR Helper | paru |
 <br />
 <br />
-<br />
 
 ## Usage
 
