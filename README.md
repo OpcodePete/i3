@@ -1,6 +1,6 @@
-![i3-wm logo](https://github.com/OpcodePete/i3/blob/main/images/i3wm-logo.png)
-<br />
-<br />
+# i3 tiling window manager
+
+![i3 logo](https://i3wm.org/img/logo.svg)
 
 ## My i3
 My primary driver is **Arch Linux** with **i3** on my desktop.
@@ -68,22 +68,23 @@ The main applications I regularly use.
 
 I have three monitors and have specific i3 workspaces assigned to each of the monitors.
 
-My primary monitor (which has the highest resolution) is used mostly for browsing and emails, i.e. reading. The first three i3 workspaces (1-3) are assigned to this monitor.
+My primary monitor (which has the highest resolution) is used mostly for browsing and emails, i.e. reading. The first three _i3 workspaces_ (1-3) are assigned to this monitor.
 
-My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four i3 workspaces (4-7) are assigned to this monitor.
+My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four _i3 workspaces_ (4-7) are assigned to this monitor.
 
-My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the i3 scratchpad for this purpose), and so on.  The last three i3 workspaces (8-10) are assigned to this monitor.
+My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps, using a gui-based editor to paste temporary text (although I could use the _i3 scratchpad_ for this purpose), and so on.  The last three _i3 workspaces_ (8-10) are assigned to this monitor.
+<br />
 <br />
 
 **Automation @ start up**
 
 Previously I had been frequently launching my most used applications (via rofi) in their designated workspaces once i3 had started. After a while I then grew tired of doing this monotonous task each time. So I looked into how this could be <u>automated<u/>. This is where _i3 Layouts_ came in!
   
-I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. Now when i3 starts, my applications auto-launch into their designated workspaces, and since workspaces appear at their specified monitors, everything is where is should be without any manual intervention!
+I use _i3 Layouts_ to set placeholder windows for my most frequently used applications. Now when _i3_ starts, my applications auto-launch into their designated workspaces, and since workspaces appear at their specified monitors, everything is where is should be without any manual intervention!
 <br />
 <br />
   
-Here is a snapshot on where my _i3 workspaces_ and applications reside...
+Here is a snapshot on my _i3 workspaces_ and applications...
 
 <br />
 
