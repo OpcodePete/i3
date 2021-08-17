@@ -127,7 +127,7 @@ I find the _i3 scratchpad_ very useful as I almost always have leafpad embedded 
 ## Start i3
 I do not use a display manager and login directly to the default shell, and manually start X when I am ready. I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates and reboot. No need to start X for such tasks!
 
-To start _i3_ from the shell, X (the Xorg display server) needs to know about i3. This can be done by configuring _xinit_:
+To start _i3_ from the shell, X (the Xorg display server) needs to know about i3, therefore configuring _xinit_:
 
 ```bash
 vim ~/.xinitrc
@@ -154,6 +154,6 @@ startx startplasma-x11
 # start i3
 startx /usr/bin/i3  
 
-# not if the gnome-keyring-daemon specified in .xinitrc will start
+# not sure if the gnome-keyring-daemon specified in .xinitrc will start
 ```
 <br />
