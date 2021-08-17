@@ -30,8 +30,13 @@ This repo was created as a backup for my installation guide and configuration fi
 **htop** - task manager in action
 <br />
 <br />
-To view more, please go to the /[screenshots](/screenshots) folder.
+![primary monitor with power menu](/screenshots/primary-monitor-powermenu.png)
+**Power Menu** - power menu using rofi
+
 <br />
+
+To view more, please go to the /[screenshots](/screenshots) folder.
+
 <br />
 
 ## i3 components
