@@ -1,4 +1,4 @@
-## i3 tiling wimdow manager
+## i3 tiling window manager
 
 My primary driver is a desktop running _i3_ on [Arch Linux](https://github.com/OpcodePete/Arch-Linux).
 
