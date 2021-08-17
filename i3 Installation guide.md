@@ -239,7 +239,6 @@ Note when adding an Office365 mail account, select the _Server Type_ as _Exchang
 
 <br />
 <br />
-<br />
 
 ## i3 Layout saving and restoring
 
@@ -353,57 +352,3 @@ _NET_WM_NAME(UTF8_STRING) = "Change Foreground Color"
 # Or if you quickly just want the class name of an application
 xprop | grep -i 'class'
 ```
-
-<br />
-<br />
-<br />
-
-## How To
-
-**How to manually start i3**
-
-Use `startx` with an option parameter:
-
-```bash
-startx /usr/bin/i3
-```
-
-When not specifying an optional parameter, X will look in `~/.xinitrc` and launch *KDE*
-
-Else to start i3 automatically using `startx`, modify the config:
-
-```bash
-vim .xinitrc
-exec /usr/bin/i3
-
-# Start i3
-startx
-```
-
-
-
-**How to Test dunst**
-
-```bash
-dunstify "It works"
-
-# Clear notification
-[Ctrl][space]
-
-# Show previous notification
-[Ctrl][.]
-```
-
-
-
-**How to obtain the rofi power menu script**
-
-```bash
-# Install
-cd ~/AUR
-git clone https://github.com/jluttine/rofi-power-menu.git
-cd rofi-power-menu.git
-sudo cp rofi-power-menu /home/peterg/.config/rofi/
-```
-
-
