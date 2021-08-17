@@ -134,14 +134,16 @@ vim ~/.xinitrc
 
 exec /usr/bin/i3  
 ```
+<br />
 
-To start _i3_ from the shell:
+Start _i3_ from the shell:
 
 ```bash
 startx
 
 # X will look in `~/.xinitrc` and launch _i3_
 ```
+<br />
 
 If you have multipe desktop environments/window mangers installed, you can specifiy which to start.
 
@@ -150,4 +152,3 @@ If you have multipe desktop environments/window mangers installed, you can speci
 startx startplasma-x11
 ```
 <br />
-
