@@ -18,16 +18,16 @@ This repo was created as a backup for my installation guide and configuration fi
 <br />
 
 ## Screenshots
-A blank workspace
 ![primary monitor](/screenshots/primary-monitor.png)
+**Blank** - a blank workspace where i3bar is noticeable
 <br />
 <br />
-Rofi in action
 ![primary monitor with rofi](/screenshots/primary-monitor-rofi.png)
+**Rofi** - themed Rofi to match the desktop
 <br />
 <br />
-htop in action
 ![primary monitor with htop](/screenshots/primary-monitor-terminal-htop.png)
+**htop** - task manager in action
 <br />
 <br />
 To view more, please go to the /[screenshots](/screenshots) folder.
