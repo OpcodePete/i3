@@ -112,9 +112,33 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 
 <br />
 
-## Display Manager
-I don't use a display manager (aka login manager), rather I prefer to log into the default shell and manually start X when I am ready, typically after _Arch Linux_ updates.
+## Starting i3
+I do not use a display manager and prefer to login directly to the default shell then manually start X when I am ready, typically after _Arch Linux_ updates are completed followed by a reboot.
 
+To start _i3_ from the shell, first configure _xinit_:
+
+```bash
+vim ~/.xinitrc
+
+exec /usr/bin/i3  
+```
+
+To start i3 from the terminal use `startx`. X will look in `~/.xinitrc` and launch _i3_
+
+
+If you have multipe desktops, you can use `startx` with an option parameter:
+
+When not specifying an optional parameter, 
+
+Else to start i3 automatically using `startx`, modify the config:
+
+```bash
+vim .xinitrc
+exec /usr/bin/i3
+
+# Start i3
+startx
+```
 <br />
 
 ## Keybindings
