@@ -1,0 +1,118 @@
+/* Global properties section */
+* {
+    // Colors (Nord)
+    polarnight-nord0: #2e3440;
+    polarnight-nord1: #3b4252;
+    polarnight-nord2: #434c5e;
+    polarnight-nord3: #4c566a;
+    custom-mid-grey: #839496;
+    snowstorm-nord4: #d8dee9;
+    snowstorm-nord5: #e5e9f0;
+    snowstorm-nord6: #eceff4;
+    frost-nord7: #8fbcbb;
+    frost-nord8: #88c0d0;
+    frost-nord9: #81a1c1;
+    frost-nord10: #5e81ac;
+    aurora-nord11: #bf616a;
+    aurora-nord12: #d08770;
+    aurora-nord13: #ebcb8b;
+    aurora-nord14: #a3be8c;
+    aurora-nord15: #b48ead;
+
+    // Atributes
+    font-size: 1px;
+    border-color: @polarnight-nord1;
+    background-color: @polarnight-nord0;
+    text-color: @custom-mid-grey;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    spacing: 0;
+}
+
+
+/* Element theme section. */
+#listview {
+    spacing: 0;
+    scrollbar: true;
+    margin: 0;
+    dynamic: true;
+}
+
+#window {    
+    border: 1;
+    border-radius: 2px;
+    border-color: @polarnight-nord1;
+    background-color: @polarnight-nord0;
+}
+
+#mainbox {
+    padding: 0;
+    border: 0;
+    background-color: @polarnight-nord0;
+}
+
+#element {
+    padding: 16;
+    border: 0 0 1 0;
+    border-color: @polarnight-nord1;
+    background-color: @polarnight-nord0;
+}
+
+#element.selected.normal {
+    border: 0 0 1 0;
+    border-radius: 0px;
+    border-color: @polarnight-nord1;
+    text-color: @frost-nord7;
+    background-color: @polarnight-nord1;    
+}
+
+#element.alternate.normal {
+    background-color: @polarnight-nord0;
+}
+
+#element.normal.active {
+    background-color: @polarnight-nord2;
+}
+
+#element.alternate.active {
+    background-color: @polarnight-nord2;
+}
+
+#element.selected.active {
+    border: 0 0 1 0;
+    border-radius: 0px;
+    border-color: @polarnight-nord1;
+    text-color: @custom-mid-grey;
+    background-color: @polarnight-nord1;
+}
+
+#inputbar {
+    border: 0 solid 0 solid 1 solid 0 solid;
+    margin: 0;
+    spacing: 0;
+    border-color: @polarnight-nord1;
+}
+
+#prompt {
+    padding: 16;
+    border: 0 1 0 0;
+    background-color: @polarnight-nord0;    
+}
+
+#entry {
+    padding: 16;
+}
+
+#scrollbar {
+    border: 0;
+    width: 8px;
+    handle-color: @polarnight-nord3;
+    handle-width: 8px;
+    background-color: @polarnight-nord0;
+}
+
+#scrollbar handle {
+    border: 1px;
+    border-color: #ff0000;
+}

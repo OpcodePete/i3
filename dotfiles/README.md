@@ -1,5 +1,6 @@
-#Directory structure of configuration files
+**Directory structure of config files**
 
+```bash
 #~/
 ~/.Xresources
 
@@ -20,3 +21,5 @@
 
 #picom
 ~/.config/picom/picom.conf
+```
+
