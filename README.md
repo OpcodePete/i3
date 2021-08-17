@@ -1,9 +1,8 @@
-# i3 tiling wm
+## i3 tiling wimdow manager
 
-## My i3
-My primary driver is a desktop with _i3_ and _Arch Linux_.
+My primary driver is a desktop running _i3_ on [Arch Linux](https://github.com/OpcodePete/Arch-Linux).
 
-Having used Microsoft Windows, Gnome, and KDE Plasma for years, and even macOS for a short time (a year or two), i3 has been the only desktop that does not get in the way. And when I learn't i3, well... it just clicked!
+Having used Microsoft Windows, Gnome, and KDE Plasma for years, and even macOS for a short time (a year or two), _i3_ has been the only desktop that does not get in the way. And when I learn't i3, well... it just clicked!
 
 My _i3_ setup uses a Nordic theme, with a clean and minimalistic look and feel.
 
@@ -18,7 +17,7 @@ This repo was created as a backup for my installation guide and configuration fi
 
 ## Screenshots
 ![primary monitor](/screenshots/primary-monitor.png)
-**Blank** - a blank workspace where i3bar is noticeable
+**Blank** - a blank workspace with i3bar
 <br />
 <br />
 ![primary monitor with rofi](/screenshots/primary-monitor-rofi.png)
@@ -40,11 +39,11 @@ To view more, please go to the /[screenshots](/screenshots) folder.
 
 ## i3 components
 
-- WM - i3-gaps
+- Window Manager - i3-gaps
+- Bar - i3status
 - Launcher - rofi
-- Bar - i3status, i3blocks
 - Background - feh
-- Screen lock - i3lock, xss-lock
+- Lockscreen - i3lock, xss-lock
 - Notification - dunst
 - Compositor - picom
 <br />
@@ -66,16 +65,18 @@ Some of the applications I use:
 
 ## Usage
 
-**My typical workflow**
+**Typical workflow**
 
-I have three monitors and have specific i3 workspaces assigned to each of the monitors.
+I have three monitors where specific i3 workspaces are assigned to particular monitors.
 
 My primary monitor (which has the highest resolution) is used mostly for browsing and emails, i.e. reading. The first three _i3 workspaces_ (1-3) are assigned to this monitor.
 
 My secondary monitor which is located in the middle is used for the builk of my work, terminal, file managers, coding, writing, and so on. Four _i3 workspaces_ (4-7) are assigned to this monitor.
 
 My tertiary monitor which is the right most monitor has the smallest display and is by far the oldest of all my monitors. I only glance at this monitor so ad-hoc tasks are well suited here, e.g. chatting with friends via messaging apps. The last three _i3 workspaces_ (8-10) are assigned to this monitor.
-<br />
+
+The Workspace back and forth feature (workspace_auto_back_and_forth yes) is enabled.
+
 <br />
 
 **Automation @ start up**
@@ -88,7 +89,6 @@ I use _i3 Layouts_ to set placeholder windows for my most frequently used applic
   
 Here is a snapshot on my _i3 workspaces_ and applications...
 
-<br />
 
 **Primary monitor (2560x1440)**
 | Workspace | Application | Notes |
@@ -103,7 +103,7 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 | ------- | ---- | ---- |
 | 4 | Konsole + tmux | auto-launch at startup |
 | 5 | Ranger | auto-launch at startup |
-| 6 | PCManFM | |
+| 6 | vim | |
 | 7 | Typora | |
 <br />
 
@@ -117,19 +117,19 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 <br />
 
 ## Keybindings
-Default keybindings are used wherever possible, and for mod$ I use the popular alternative Windows key (Mod4).
+Default keybindings are used wherever possible.
 
-And I have enabled the workspace back and forth feature (workspace_auto_back_and_forth yes)
+Mod4 (Win key) is used for mod$, which is the most popular alternative.
 
 <br />
 
 ## Scratchpad
-I find the _i3 scratchpad_ very useful as I almost always have leafpad embedded in here, using it solely for pasting and re-copying text.
+The _i3 scratchpad_ is very useful as I almost always have leafpad embedded here, using it solely for pasting and re-copying text.
 
 <br />
 
-## Start i3
-I do not use a display manager and login directly to the default shell, and manually start X when I am ready. I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates and reboot. No need to start X for such tasks!
+## Starting i3
+I do not use a display manager, rather I log in directly to the default shell and manually start X when I am ready. I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates. No need to start X for such tasks!
 
 To start _i3_ from the shell, X (the Xorg display server) needs to know about i3, therefore configuring _xinit_:
 
