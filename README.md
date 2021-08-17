@@ -1,5 +1,4 @@
 # i3 tiling wm
-<br />
 
 ## My i3
 My primary driver is a desktop with _i3_ and _Arch Linux_.
