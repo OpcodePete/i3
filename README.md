@@ -112,35 +112,6 @@ Here is a snapshot on my _i3 workspaces_ and applications...
 
 <br />
 
-## Starting i3
-I do not use a display manager and prefer to login directly to the default shell then manually start X when I am ready, typically after _Arch Linux_ updates are completed followed by a reboot.
-
-To start _i3_ from the shell, first configure _xinit_:
-
-```bash
-vim ~/.xinitrc
-
-exec /usr/bin/i3  
-```
-
-To start i3 from the terminal use `startx`. X will look in `~/.xinitrc` and launch _i3_
-
-
-If you have multipe desktops, you can use `startx` with an option parameter:
-
-When not specifying an optional parameter, 
-
-Else to start i3 automatically using `startx`, modify the config:
-
-```bash
-vim .xinitrc
-exec /usr/bin/i3
-
-# Start i3
-startx
-```
-<br />
-
 ## Keybindings
 Default keybindings are used wherever possible, and for mod$ I use the popular alternative Windows key (Mod4).
 
@@ -150,3 +121,36 @@ And I have enabled the workspace back and forth feature (workspace_auto_back_and
 
 ## Scratchpad
 I find the _i3 scratchpad_ very useful as I almost always have leafpad embedded in here, using it solely for pasting and re-copying text.
+
+<br />
+
+## Start i3
+I do not use a display manager and login directly to the default shell, and manually start X when I am ready.
+
+I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates and reboot. No need to start X for such tasks!
+
+
+First configure _xinit_:
+
+```bash
+vim ~/.xinitrc
+
+exec /usr/bin/i3  
+```
+
+To start _i3_ from the shell:
+
+```bash
+startx
+
+# X will look in `~/.xinitrc` and launch _i3_
+```
+
+If you have multipe desktop environments/window mangers installed, you can specifiy which to start.
+
+```bash
+# start KDE Plasma
+startx startplasma-x11
+```
+<br />
+
