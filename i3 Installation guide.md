@@ -23,11 +23,14 @@ arandr
 ```
 <br />
 
-## Install i3
+## Install i3 and related applications
 
 ```bash
-sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
 # note the i3 package group contains both i3 and i3-gaps, choose one of them
+sudo pacman -S i3 rofi dunst picom feh xss-lock polkit perl-anyevent-i3 perl-json-xs
+
+# instal rofi power menu
+paru rofi-power-menu
 ```
 <br />
 
