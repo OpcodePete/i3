@@ -125,12 +125,9 @@ I find the _i3 scratchpad_ very useful as I almost always have leafpad embedded 
 <br />
 
 ## Start i3
-I do not use a display manager and login directly to the default shell, and manually start X when I am ready.
+I do not use a display manager and login directly to the default shell, and manually start X when I am ready. I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates and reboot. No need to start X for such tasks!
 
-I typically carry out maintenance and ancillary tasks in the shell, e.g. _Arch Linux_ updates and reboot. No need to start X for such tasks!
-
-
-First configure _xinit_:
+To start _i3_, first configure _xinit_ to call i3:
 
 ```bash
 vim ~/.xinitrc
